@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:comidas="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Paella">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Plato"/>
+    <rdfs:label xml:lang="es">Paella</rdfs:label>
+    <comidas:tiempo_preparacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50</comidas:tiempo_preparacion>
+    <comidas:kilocalorias rdf:datatype="http://www.w3.org/2001/XMLSchema#int">420</comidas:kilocalorias>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">12.0</comidas:precio>
+    <comidas:sabor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salado</comidas:sabor>
+    <comidas:para_cuantas_personas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</comidas:para_cuantas_personas>
+    <comidas:requiereRefrigeracion rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</comidas:requiereRefrigeracion>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Carbohidratos"/>
+    <comidas:necesita rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Cocido"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Valencia"/>
+    <comidas:es_tipo rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Almuerzo"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Aceite"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Arroz"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pimientos"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pollo"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Tomate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Cebolla">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Cebolla</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Verduras"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Espana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Orchata">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Bebida"/>
+    <rdfs:label xml:lang="es">Orchata</rdfs:label>
+    <comidas:tiempo_preparacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</comidas:tiempo_preparacion>
+    <comidas:kilocalorias rdf:datatype="http://www.w3.org/2001/XMLSchema#int">66</comidas:kilocalorias>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</comidas:precio>
+    <comidas:sabor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dulce</comidas:sabor>
+    <comidas:para_cuantas_personas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</comidas:para_cuantas_personas>
+    <comidas:requiereRefrigeracion rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</comidas:requiereRefrigeracion>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Carbohidratos"/>
+    <comidas:necesita rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Crudo"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Alboraya"/>
+    <comidas:es_tipo rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Merienda"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Agua"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Azucar"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Chufa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Mozzarella">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Mozzarella</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Lacteos_grupo"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Napoles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Gazpacho">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Plato"/>
+    <rdfs:label xml:lang="es">Gazpacho</rdfs:label>
+    <comidas:tiempo_preparacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</comidas:tiempo_preparacion>
+    <comidas:kilocalorias rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50</comidas:kilocalorias>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</comidas:precio>
+    <comidas:sabor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salado</comidas:sabor>
+    <comidas:para_cuantas_personas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</comidas:para_cuantas_personas>
+    <comidas:requiereRefrigeracion rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</comidas:requiereRefrigeracion>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Verduras"/>
+    <comidas:necesita rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Crudo"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Cordoba"/>
+    <comidas:es_tipo rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Almuerzo"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Aceite"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Agua"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ajo"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pepino"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pimientos"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Tomate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#HotDogs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Plato"/>
+    <rdfs:label xml:lang="es">HotDogs</rdfs:label>
+    <comidas:tiempo_preparacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</comidas:tiempo_preparacion>
+    <comidas:kilocalorias rdf:datatype="http://www.w3.org/2001/XMLSchema#int">350</comidas:kilocalorias>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</comidas:precio>
+    <comidas:sabor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salado</comidas:sabor>
+    <comidas:para_cuantas_personas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</comidas:para_cuantas_personas>
+    <comidas:requiereRefrigeracion rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</comidas:requiereRefrigeracion>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Proteinas"/>
+    <comidas:necesita rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Cocido"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Chicago"/>
+    <comidas:es_tipo rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Snack"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ketchup"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pan"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Salchichas"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Salsa_Mayonesa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Aceite">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Aceite</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Grasas"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Andalucia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Cerdo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Cerdo</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Proteinas"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Espana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Salchichas">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Salchichas</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Proteinas"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#EEUU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Tortilla_de_patatas">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Plato"/>
+    <rdfs:label xml:lang="es">Tortilla_de_patatas</rdfs:label>
+    <comidas:tiempo_preparacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</comidas:tiempo_preparacion>
+    <comidas:kilocalorias rdf:datatype="http://www.w3.org/2001/XMLSchema#int">350</comidas:kilocalorias>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</comidas:precio>
+    <comidas:sabor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salado</comidas:sabor>
+    <comidas:para_cuantas_personas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</comidas:para_cuantas_personas>
+    <comidas:requiereRefrigeracion rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</comidas:requiereRefrigeracion>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Proteinas"/>
+    <comidas:necesita rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Frito"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Espana"/>
+    <comidas:es_tipo rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Desayuno"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Aceite"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Cebolla"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Huevo"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Patata"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Limon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Limon</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Verduras"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Andalucia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Kebab">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Plato"/>
+    <rdfs:label xml:lang="es">Kebab</rdfs:label>
+    <comidas:tiempo_preparacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</comidas:tiempo_preparacion>
+    <comidas:kilocalorias rdf:datatype="http://www.w3.org/2001/XMLSchema#int">500</comidas:kilocalorias>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</comidas:precio>
+    <comidas:sabor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salado</comidas:sabor>
+    <comidas:para_cuantas_personas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</comidas:para_cuantas_personas>
+    <comidas:requiereRefrigeracion rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</comidas:requiereRefrigeracion>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Proteinas"/>
+    <comidas:necesita rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#A_la_plancha"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Marruecos"/>
+    <comidas:es_tipo rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Almuerzo"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ketchup"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Lechuga"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pimientos"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pollo"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Salsa_Mayonesa"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Torta_de_maiz"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pimientos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Pimientos</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Verduras"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Espana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ensalada_Mixta">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Plato"/>
+    <rdfs:label xml:lang="es">Ensalada_Mixta</rdfs:label>
+    <comidas:tiempo_preparacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</comidas:tiempo_preparacion>
+    <comidas:kilocalorias rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80</comidas:kilocalorias>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</comidas:precio>
+    <comidas:sabor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salado</comidas:sabor>
+    <comidas:para_cuantas_personas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</comidas:para_cuantas_personas>
+    <comidas:requiereRefrigeracion rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</comidas:requiereRefrigeracion>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Verduras"/>
+    <comidas:necesita rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Crudo"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Espana"/>
+    <comidas:es_tipo rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Almuerzo"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Aceite"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Cebolla"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Lechuga"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pepino"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Tomate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Cocido">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Arroz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Arroz</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Carbohidratos"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Comunidad_Valenciana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pepino">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Pepino</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Verduras"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Andalucia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Chicago">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Jamon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Jamon</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Proteinas"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Andalucia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Huevo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Huevo</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Proteinas"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Espana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Lechuga">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Lechuga</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Verduras"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Espana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Bocadillo_de_Jamon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Plato"/>
+    <rdfs:label xml:lang="es">Bocadillo_de_Jamon</rdfs:label>
+    <comidas:tiempo_preparacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</comidas:tiempo_preparacion>
+    <comidas:kilocalorias rdf:datatype="http://www.w3.org/2001/XMLSchema#int">280</comidas:kilocalorias>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</comidas:precio>
+    <comidas:sabor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salado</comidas:sabor>
+    <comidas:para_cuantas_personas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</comidas:para_cuantas_personas>
+    <comidas:requiereRefrigeracion rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</comidas:requiereRefrigeracion>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Proteinas"/>
+    <comidas:necesita rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Crudo"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Andalucia"/>
+    <comidas:es_tipo rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Desayuno"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Jamon"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pollo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Pollo</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Proteinas"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Espana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Chufa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Chufa</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Carbohidratos"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Alboraya"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Sopa_de_Pollo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Plato"/>
+    <rdfs:label xml:lang="es">Sopa_de_Pollo</rdfs:label>
+    <comidas:tiempo_preparacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">45</comidas:tiempo_preparacion>
+    <comidas:kilocalorias rdf:datatype="http://www.w3.org/2001/XMLSchema#int">220</comidas:kilocalorias>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0</comidas:precio>
+    <comidas:sabor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salado</comidas:sabor>
+    <comidas:para_cuantas_personas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</comidas:para_cuantas_personas>
+    <comidas:requiereRefrigeracion rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</comidas:requiereRefrigeracion>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Proteinas"/>
+    <comidas:necesita rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Cocido"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Turquia"/>
+    <comidas:es_tipo rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Cena"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Aceite"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Agua"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Cebolla"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pimientos"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pollo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pizza_Margarita">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Plato"/>
+    <rdfs:label xml:lang="es">Pizza_Margarita</rdfs:label>
+    <comidas:tiempo_preparacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60</comidas:tiempo_preparacion>
+    <comidas:kilocalorias rdf:datatype="http://www.w3.org/2001/XMLSchema#int">800</comidas:kilocalorias>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</comidas:precio>
+    <comidas:sabor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salado</comidas:sabor>
+    <comidas:para_cuantas_personas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</comidas:para_cuantas_personas>
+    <comidas:requiereRefrigeracion rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</comidas:requiereRefrigeracion>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Carbohidratos"/>
+    <comidas:necesita rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Horneado"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Napoles"/>
+    <comidas:es_tipo rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Cena"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Aceite"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Harina"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Mozzarella"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Tomate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Patata">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Patata</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Carbohidratos"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Espana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Salsa_Mayonesa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Salsa_Mayonesa</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8</comidas:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Pan</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Carbohidratos"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Espana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Harina">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Harina</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Carbohidratos"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Italia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Agua">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Agua</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.1</comidas:precio>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Espana"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Merienda">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ajo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Ajo</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Verduras"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Andalucia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Palma_del_Rio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Frito">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Grasas">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Cordoba">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Salmorejo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Plato"/>
+    <rdfs:label xml:lang="es">Salmorejo</rdfs:label>
+    <comidas:tiempo_preparacion rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</comidas:tiempo_preparacion>
+    <comidas:kilocalorias rdf:datatype="http://www.w3.org/2001/XMLSchema#int">180</comidas:kilocalorias>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</comidas:precio>
+    <comidas:sabor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">salado</comidas:sabor>
+    <comidas:para_cuantas_personas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</comidas:para_cuantas_personas>
+    <comidas:requiereRefrigeracion rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</comidas:requiereRefrigeracion>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Verduras"/>
+    <comidas:necesita rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Crudo"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Palma_del_Rio"/>
+    <comidas:es_tipo rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Almuerzo"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Aceite"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Agua"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ajo"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Pan"/>
+    <comidas:contiene rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Tomate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Napoles">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Carbohidratos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Verduras">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Almuerzo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ketchup">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Ketchup</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</comidas:precio>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Turquia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Azucar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Azucar</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.2</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Carbohidratos"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Snack">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Italia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#A_la_plancha">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Tomate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Tomate</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Verduras"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Andalucia"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Torta_de_maiz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Ingrediente"/>
+    <rdfs:label xml:lang="es">Torta_de_maiz</rdfs:label>
+    <comidas:precio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</comidas:precio>
+    <comidas:pertenece_a_piramide rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Carbohidratos"/>
+    <comidas:procedente_de rdf:resource="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Mexico"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Marruecos">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Andalucia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Lacteos_grupo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#EEUU">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Comunidad_Valenciana">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Alboraya">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Mexico">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Horneado">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Desayuno">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Espana">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:comment xml:lang="es">Ontología poblada automáticamente con RDFlib desde CSV.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Cena">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Crudo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Proteinas">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2026/2/untitled-ontology-7#Valencia">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+</rdf:RDF>
